@@ -43,6 +43,7 @@ h2 {
 }
 
 .input-field button {
+  display: flex;
   width: 10%;
   transition: 0.5s;
   border: none;
@@ -52,7 +53,8 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   opacity: 0.6;
   pointer-events: none;
 }
@@ -83,7 +85,6 @@ h2 {
   margin-bottom: 5px;
   width: 96.5%;
   padding: 0 10px;
-  overflow: scroll;
 }
 
 .task-list li span {
